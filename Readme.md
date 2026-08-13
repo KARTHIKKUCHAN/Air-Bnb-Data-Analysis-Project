@@ -3,7 +3,7 @@
 ## Project Overview
 This project provides a comprehensive data analysis and business intelligence dashboard for Airbnb property and booking data spanning from 2023 into early 2026. The goal is to analyze booking trends, revenue generation, occupancy rates, and host performance to provide actionable insights for property management and strategic decision-making. 
 
-The analysis is built on a robust data model and features interactive dashboards that track performance across different neighborhoods, property types, and time periods. The final visual report is available in the **end to end project_3.pdf** file[cite: 3].
+The analysis is built on a robust data model and features interactive dashboards that track performance across different neighborhoods, property types, and time periods. The final visual report is available in the **end to end project_3.pdf**.
 
 ## Data Architecture: The Star Schema Model
 The foundation of this project is a Star Schema data model, which is optimized for querying large datasets and building efficient Business Intelligence dashboards. The dataset consists of one central fact table and four dimension tables:
@@ -26,19 +26,19 @@ To transform the raw tables into actionable insights, a suite of DAX (Data Analy
 Based on the dashboard visualizations spanning 2023-2026, here are the major findings and performance metrics:
 
 ### Financial Performance and Seasonality
-*   **Revenue Growth**: The platform generated a massive Total Revenue of **$176.08M** over the four-year period[cite: 3]. Given that 2026 only contains January data, the platform averages roughly $50 million in revenue annually.
-*   **Stable Rates**: The Average Nightly Rate sits at **$235.56**, and the overall Cancellation Rate is **19.95%**[cite: 3].
-*   **Occupancy Consistency**: The Occupancy Rate remains remarkably steady throughout the year, averaging **50.47%**[cite: 3].
-*   **Rate Fluctuation**: While the nightly rate remains mostly stable between **$232** and **$238**, the Revenue Per Available Room (RevPAR) experiences notable seasonal spikes, peaking around January (**$128**) and later in the year[cite: 3].
+*   **Revenue Growth**: The platform generated a massive Total Revenue of **$176.08M** over the four-year period. Given that 2026 only contains January data, the platform averages roughly $50 million in revenue annually.
+*   **Stable Rates**: The Average Nightly Rate sits at **$235.56**, and the overall Cancellation Rate is **19.95%**.
+*   **Occupancy Consistency**: The Occupancy Rate remains remarkably steady throughout the year, averaging **50.47%**.
+*   **Rate Fluctuation**: While the nightly rate remains mostly stable between **$232** and **$238**, the Revenue Per Available Room (RevPAR) experiences notable seasonal spikes, peaking around January (**$128**) and later in the year.
 
 ### Market Demand and Preferences
-*   **Top Neighbourhoods**: The Bronx leads significantly in booking volume with **12.6K** bookings[cite: 3]. It is followed by Crown Heights at **7.6K** bookings, and Harlem, Chelsea, and the East Village each at **7.5K** bookings[cite: 3].
-*   **Accommodation Types**: Guests strongly prefer booking an "Entire home/apt," which accounts for **56.16%** (**56K**) of all bookings[cite: 3]. Private rooms make up a strong secondary market at **31.22%** (**31K**)[cite: 3]. Hotel rooms make up **6.39%** (**6K**) of the bookings[cite: 3].
-*   **Property Categories**: Studios (**16.2K**), Hostels (**13.7K**), and Lofts (**12.6K**) are the most frequently booked property types[cite: 3].
+*   **Top Neighbourhoods**: The Bronx leads significantly in booking volume with **12.6K** bookings. It is followed by Crown Heights at **7.6K** bookings, and Harlem, Chelsea, and the East Village each at **7.5K** bookings.
+*   **Accommodation Types**: Guests strongly prefer booking an "Entire home/apt," which accounts for **56.16%** (**56K**) of all bookings. Private rooms make up a strong secondary market at **31.22%** (**31K**). Hotel rooms make up **6.39%** (**6K**) of the bookings.
+*   **Property Categories**: Studios (**16.2K**), Hostels (**13.7K**), and Lofts (**12.6K**) are the most frequently booked property types.
 
 ### The Superhost Advantage
-*   **Revenue Dominance**: Superhosts are the primary financial driver for the platform. They account for **71.07%** (**71K**) of all bookings and command a massive **69.3%** (**$122.02M**) share of total revenue[cite: 3]. By comparison, regular hosts brought in **$54.06M** (**30.7%**) from **29K** bookings[cite: 3].
-*   **Quality Consistency**: Individual top-performing hosts manage high booking volumes while maintaining highly consistent Average Review Scores between **3.91** and **3.94**, proving that scale does not degrade the guest experience[cite: 3].
+*   **Revenue Dominance**: Superhosts are the primary financial driver for the platform. They account for **71.07%** (**71K**) of all bookings and command a massive **69.3%** (**$122.02M**) share of total revenue. By comparison, regular hosts brought in **$54.06M** (**30.7%**) from **29K** bookings.
+*   **Quality Consistency**: Individual top-performing hosts manage high booking volumes while maintaining highly consistent Average Review Scores between **3.91** and **3.94**, proving that scale does not degrade the guest experience.
 
 ## Tech Stack
 *   **Tool**: Power BI 
